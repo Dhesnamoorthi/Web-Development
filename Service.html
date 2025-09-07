@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Provider</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+   
+
+    .navbar-nav > li > a {
+      padding: 15px 20px;
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .navbar-nav > li > a:hover {
+      background-color: #ddd;
+      color: #000;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #444;
+    }
+
+    .work-thumb {
+      margin: 20px 0;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .work-thumb img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .work-info {
+      padding: 15px;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    .work-info h3 {
+      margin-top: 0;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    #contact-form .form-control {
+      margin-bottom: 15px;
+    }
+
+    .google-map iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      padding: 40px 0;
+    }
+
+    .footer-thumb h2 {
+      color: #fff;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .footer-link {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .footer-link li a {
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    .footer-link li a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .navbar-collapse {
+        background-color: #fff;
+        padding: 10px 0;
+      }
+
+      .col-md-3, .col-md-4, .col-md-5, .col-md-8, .col-md-12 {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="collapse navbar-collapse">
+  <ul class="nav navbar-nav navbar-nav-first">
+     
+    <li><a href="#home" class="smoothScroll">Home</a></li>
+    <li><a href="#about" class="smoothScroll">About</a></li>
+    <li><a href="#blog" class="smoothScroll">Blog</a></li>
+    <li><a href="#work" class="smoothScroll">Our Work</a></li>
+    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Work Section -->
+<section id="work" class="container">
+  <div class="col-md-3 col-sm-6">
+    <div class="work-thumb">
+      <a href="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdvcmt8ZW58MHx8MHx8fDA%3D" class="image-popup">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdvcmt8ZW58MHx8MHx8fDA%3D" class="img-responsive" alt="Work">
+        <div class="work-info">
+          <h3>Paint Work</h3>
+          <small>Art, Design</small>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" data-stellar-background-ratio="0.5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12 col-sm-12">
+        <div class="section-title">
+          <h2>Contact us</h2>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-sm-8">
+        <form id="contact-form" role="form" action="#" method="post">
+          <div class="col-md-6 col-sm-6">
+            <input type="text" class="form-control" placeholder="Enter Your Full Name" id="cf-name" name="cf-name" required>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <input type="email" class="form-control" placeholder="Enter Your Email" id="cf-email" name="cf-email" required>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <input type="tel" class="form-control" placeholder="Enter Your Phone" id="cf-number" name="cf-number" required>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <input type="submit" class="form-control" name="submit" value="Send Message">
+          </div>
+        </form>
+      </div>
+
+     
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer data-stellar-background-ratio="0.5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-5 col-sm-12">
+        <div class="footer-thumb footer-info"> 
+          <h2>Arts and Design Company</h2>
+          <p>We are a creative arts and design studio passionate about transforming ideas into visual experiences.
+                From branding and illustrations to digital design, we craft unique, meaningful, and impactful work 
+                for clients who value creativity. Let’s bring your vision to life.</p>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-sm-4"> 
+        <div class="footer-thumb"> 
+          <h2>Company</h2>
+          <ul class="footer-link">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Join our team</a></li>
+            <li><a href="#">Read Blog</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-sm-4"> 
+        <div class="footer-thumb"> 
+          <h2>Services</h2>
+          <ul class="footer-link">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
