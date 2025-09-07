@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake Store Product Manager</title>
+  <link rel="stylesheet" href="api1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Fake Store Product Manager</h1>
+
+    <form id="product-form">
+      <input type="text" id="title" placeholder="Product Title" required />
+      <input type="text" id="price" placeholder="Price" required />
+      <input type="text" id="category" placeholder="Category" required />
+      <button type="submit">Add Product</button>
+    </form>
+    <br>
+
+    <input type="text" id="search-input" placeholder=" Search product..." />
+
+    <button id="load-btn">Load Products</button>
+    <div id="product-list"></div>
+  </div>
+
+  <script src="api2.js"></script>
+</body>
+</html>

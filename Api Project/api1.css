@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: slategrey;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 32px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+
+form input, #search-input {
+  width: 85%%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid grey;
+  font-size: 16px;
+}
+
+form button, #load-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  width: 25%;
+}
+
+#load-btn {
+  margin: 20px 0;
+}
+
+form button:hover, #load-btn:hover {
+  opacity: 0.9;
+}
+
+#product-list > div {
+  background-color: lightgray;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+#product-list p {
+  margin: 5px 0;
+}
+
+#product-list button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#product-list button:first-of-type {
+  background-color: black;
+}
+
+#search-input {
+  border: 1px solid #aaa;
+  font-size: 15px;
+}
